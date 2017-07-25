@@ -152,6 +152,9 @@ footer p {
   .container {
     width: auto;
   }
+  footer .container {
+    width: 100%;
+  }
   .feature {
     width: 47%;
   }
@@ -169,7 +172,7 @@ footer p {
 
 @media only screen and (max-width: 470px) {
   .container {
-    width: auto;
+    width: 100%;
   }
   .features {
     justify-content: center;
@@ -211,5 +214,13 @@ footer p {
   .info {
     width: 90%;
     margin: 0.5rem auto;
+  }
+  footer .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    text-align: center;
   }
 }
