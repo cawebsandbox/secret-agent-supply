@@ -7,64 +7,88 @@
     <link type="text/css" rel="stylesheet" href="resources/css/style.css">
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="main-container"> -->
       <!-- Header -->
-      <header class="logo">
-        <img src="resources/images/logo.png"/>
-        <p>SECRET AGENT SUPPLY INC.</p>
+      <header>
+        <div class="container">
+          <img src="resources/images/logo.png"/>
+          <p>SECRET AGENT SUPPLY INC.</p>
+        </div>
       </header>
 
       <!-- Banner -->
       <div class="main-feature">
-        <div class="text">
-          <p>NEW ARRIVAL</p>
-          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        <div class="container">
+          <div class="text">
+            <p>NEW ARRIVAL</p>
+            <h1>SPORT BIKES AND MOTORCYCLES</h1>
+          </div>
         </div>
       </div>
 
       <!-- Navigation -->
       <nav>
-        <ul>
-          <li>Eyewear</li>
-          <li>Apparel</li>
-          <li>Gadgets</li>
-          <li>Vehicles</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li>Eyewear</li>
+            <li>Apparel</li>
+            <li>Gadgets</li>
+            <li>Vehicles</li>
+            <li>Classes</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </nav>
 
       <!-- Main -->
+      <div class="container">
       <div class="main-body">
-        <div class="features">
-          <div class="feature">
-            <img src="resources/images/pen.png" alt="Exploding Pen">
-            <p>Exploding Pen</p>
+
+
+
+          <div class="features">
+            <div class="feature" id="f1">
+              <div class="feature-img">
+                <img src="resources/images/pen.png" alt="Exploding Pen"/>
+              </div>
+              <p>Exploding Pen</p>
+            </div>
+            <div class="feature" id="f2">
+              <div class="feature-img">
+                <img src="resources/images/watch.png" alt="Cellular Watch"/>
+              </div>
+              <p>Cellular Watch</p>
+            </div>
+            <div class="feature" id="f3">
+              <div class="feature-img">
+                <img src="resources/images/glasses.png" alt="Thermal Glasses"/>
+              </div>
+              <p>Thermal Glasses</p>
+            </div>
           </div>
-          <div class="feature">
-            <img src="resources/images/watch.png" alt="Cellular Watch">
-            <p>Cellular Watch</p>
+
+          <div class="infos">
+            <div class="info">
+              <p class="name">Location</p>
+              <p class="info-text">-74.346436,84.32354</p>
+            </div>
+            <div class="info">
+              <p class="name">Hours</p>
+              <p class="info-text">0800 - 1800</p>
+            </div>
           </div>
-          <div class="feature">
-            <img src="resources/images/glasses.png" alt="Thermal Glasses">
-          </div>
-        </div>
-        <div class="hours">
-          <div class="info">
-            <p class="name">Location</p>
-            <p class="text">-74.346436,84.32354</p>
-          </div>
-          <div class="info">
-            <p class="name">Hours</p>
-            <p class="text">0800 - 1800</p>
-          </div>
+
+
+
         </div>
       </div>
 
       <!-- Footer -->
       <footer>
-        <p>&copy; Copyright Secret Agent Supply Inc.</p>
+        <div class="container">
+          <p>&copy; Copyright Secret Agent Supply Inc.</p>
+        </div>
       </footer>
-    </div>
+    <!-- </div> -->
   </body>
 </html>
